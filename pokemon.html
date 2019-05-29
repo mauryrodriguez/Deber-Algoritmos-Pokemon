@@ -1,0 +1,59 @@
+<! DOCTYPE html>
+< html  lang = " en " >
+< cabeza >
+    < meta  charset = " UTF-8 " >
+    < meta  name = " viewport "  content = " width = device-width, initial-scale = 1.0 " >
+    < meta  http-equiv = " Compatible con X-UA "  contenido = " ie = borde " >
+    < título > JUEGO DE POKEMONS </ título >
+    < link  rel = " hoja de estilo "  href = " diseño.css " >
+    < script  src = " datosPokemon.js " > </ script >
+</ cabeza >
+< cuerpo >
+    < estilo div  = " ancho : 40 % ; margen izquierdo : automático ; margen derecho : automático ; margen superior : 50 px " >
+    < form  name = " formulario "  method = " get " >
+        Seleccione su Pokemon
+        < select   type = " text "  name = " name "  id = " name "  required >
+            < opción  valor = " Pikachu " > Pikachu </ opción >
+            < opción  valor = " Charmander " > Charmander </ option >
+            < opción  value = " Charizard " > Charizard </ option >
+            < opción  valor = " Bulbasaur " > Bulbasaur </ opción >
+            < option  value = " Squirtle " > Squirtle </ option >
+            < option  value = " Butterfree " > Butterfree </ option >
+            < opción  valor = " Mewtwo " > Mewtwo </ opción >
+        </ seleccionar >
+        < Br >
+        < Br >
+        Seleccione su rival
+        < select  type = " text "  name = " name2 "  id = " name2 "  required >
+            < opción  valor = " Pikachu " > Pikachu </ opción >
+            < opción  valor = " Charmander " > Charmander </ option >
+            < opción  value = " Charizard " > Charizard </ option >
+            < opción  valor = " Bulbasaur " > Bulbasaur </ opción >
+            < option  value = " Squirtle " > Squirtle </ option >
+            < option  value = " Butterfree " > Butterfree </ option >
+            < opción  valor = " Mewtwo " > Mewtwo </ opción >
+        </ seleccionar >
+        < Br >
+        < Br >
+        < input  type = " button "  id = " btn "  name = " btn "  value = " Aceptar "  onclick = " crearPokemons () " >
+        < input  type = " button "  id = " btn1 "  value = " Atacar "  onclick = " atackPokemon () " >
+        < Br >
+        < Br >
+        < label  for = " nomPok1 " > Su Pokemon: </ label >
+        < input  type = " text "  name = " nomPokemon1 "  id = " nomPok1 " >
+        < Br >
+        < Br >
+        < label  para = " vidaPok1 " > Puntos de Vida: </ label >
+        < input  type = " text "  name = " vidaPokemon1 "  id = " vidaPok1 " >
+        < Br >
+        < Br >
+        < label  for = " nomPok2 " > Pokemon Rival: </ label >
+        < input  type = " text "  name = " nomPokemon2 "  id = " nomPok2 " >
+        < Br >
+        < Br >
+        < Etiqueta  para = " vidaPok2 " > Puntos de Vida: </ etiqueta >
+        < input  type = " text "  name = " vidaPokemon2 "  id = " vidaPok2 " >
+    </ form >
+    </ div >
+</ cuerpo >
+</ html >
